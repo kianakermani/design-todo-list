@@ -4,7 +4,6 @@
 }
 
 .check {
-  font-size: 250%;
   display: inline;
 }
 
@@ -18,4 +17,52 @@
   font-size: 150%;
   font-weight: bold;
   vertical-align: middle;
+}
+
+.fsize {
+  font-size: 250%;
+}
+
+.filter {
+  font-size: 200%;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.pendings {
+  position: absolute;
+  top: 20;
+  left: 80.5lvw;
+}
+
+.over {
+  position: absolute;
+  top: 20;
+  left: 76lvw;
+  color: #f97829;
+}
+
+.due {
+  position: relative;
+  top: 17px;
+  right: 35px;
+}
+
+.line {
+  position: absolute;
+  left: 79.7lvw;
+  top: 2px;
+  font-size: 200%;
+  color: #bababa;
+}
+
+.number {
+  position: relative;
+}
+
+.pend {
+  position: relative;
+  top: 17px;
+  right: 40px;
 }
