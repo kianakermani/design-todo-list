@@ -19,10 +19,10 @@ const Navbar = () => {
           <CiStar className="star ml-2" />
         </div>
         <div className="mr-1 over ">
-          <span className="font-bold ml-6 number ">1</span>
+          <span className="font-bold ml-6 num1">1</span>
           <span className="font-semibold due">Overdue</span>
         </div>
-        <div>
+        <div className="ll">
           <span className="line">/</span>
         </div>
 

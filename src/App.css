@@ -30,39 +30,49 @@
   padding: 4px;
 }
 
-.pendings {
-  position: absolute;
-  top: 20;
-  left: 80.5lvw;
+.over {
+  position: relative;
+  color: #fa8136;
 }
 
-.over {
+.num1 {
   position: absolute;
-  top: 20;
-  left: 76lvw;
-  color: #f97829;
+  right: 80%;
+  padding-right: 67px;
 }
 
 .due {
   position: relative;
-  top: 17px;
-  right: 35px;
+  top: 36%;
+  right: 145%;
+}
+
+.ll {
+  position: relative;
 }
 
 .line {
   position: absolute;
-  left: 79.7lvw;
-  top: 2px;
+  margin-right: 40px;
+  bottom: 10%;
+  right: 100%;
+  padding-right: 30px;
   font-size: 200%;
-  color: #bababa;
+  color: #c9c7c7;
+}
+.pendings {
+  position: relative;
 }
 
 .number {
-  position: relative;
+  position: absolute;
+
+  right: 80%;
+  padding-right: 20px;
 }
 
 .pend {
-  position: relative;
-  top: 17px;
-  right: 40px;
+  position: absolute;
+  top: 36%;
+  right: 20%;
 }
