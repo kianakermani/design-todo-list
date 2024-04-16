@@ -1,0 +1,47 @@
+.c {
+  background-color: rgb(255, 255, 255);
+  height: 30%;
+  margin-right: 20%;
+  position: absolute;
+  margin-top: 70px;
+  left: 10%;
+  top: 60%;
+  width: 81%;
+  display: flex;
+}
+
+.vlj {
+  border-left: 5px solid rgb(96, 149, 255);
+  height: 23px;
+}
+
+.txtj {
+  font-weight: 700;
+  color: rgb(96, 149, 255);
+}
+
+.dwnj {
+  color: rgb(96, 149, 255);
+}
+
+.pls {
+  position: absolute;
+  left: 96.7%;
+  font-size: 210%;
+  color: rgb(184, 184, 184);
+}
+
+.chk {
+  font-size: 550%;
+  position: absolute;
+  top: 35%;
+  left: 47.5%;
+  color: rgb(124, 124, 124);
+}
+.tsk {
+  font-size: 180%;
+  position: absolute;
+  top: 70%;
+  left: 47%;
+  color: rgb(105, 105, 105);
+}
