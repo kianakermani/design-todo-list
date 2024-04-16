@@ -1,8 +1,101 @@
 .container {
-  background-color: rgb(249, 249, 249);
-  width: 72.5%;
-  height: 55%;
+  background-color: rgb(255, 255, 255);
+  height: 52.5%;
+  margin-right: 20%;
   position: absolute;
   margin-top: 23px;
-  left: 14%;
+  left: 10%;
+}
+
+.vl {
+  border-left: 5px solid rgb(104, 104, 104);
+  height: 23px;
+}
+
+.redline {
+  position: relative;
+}
+
+.vl2 {
+  border-left: 4px solid rgb(243, 117, 117);
+  position: absolute;
+  top: 18px;
+  left: 2px;
+  height: 14px;
+}
+
+.element1 {
+  border-bottom: none;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  display: flex;
+}
+
+.txt {
+  font-weight: 700;
+  color: rgb(123, 123, 123);
+}
+
+.dwn {
+  color: rgb(123, 123, 123);
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin: 7px 0;
+}
+
+.checkbox-round:checked {
+  background-color: gray;
+}
+
+.items {
+  font-weight: 700;
+  color: rgb(99, 99, 99);
+  font-size: 105%;
+}
+
+.lists {
+  position: relative;
+}
+
+.profile {
+  position: absolute;
+  right: 1.5%;
+  font-size: 200%;
+}
+
+.message {
+  position: absolute;
+  right: 7%;
+  top: 30%;
+  font-size: 120%;
+}
+
+.msgn {
+  position: absolute;
+  right: 6%;
+  top: 20%;
+}
+
+.mnu {
+  position: absolute;
+  right: 8%;
+  top: 30%;
+  font-size: 120%;
+}
+
+.mnun {
+  position: absolute;
+  right: 6%;
+  top: 20%;
 }
